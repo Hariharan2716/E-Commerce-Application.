@@ -9,5 +9,4 @@ Objectives
 understand the overall structure of a MERN project.
 Learn the foundational steps of setting up a new project.
 Gain clarity on the functionalities on an e-commerce application.
-Prepare for upcoming milestones by settng up the project rrepository.
-
+Prepare for upcoming milestones by setting up the project repository.
