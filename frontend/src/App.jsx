@@ -6,19 +6,15 @@ import {BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Login from './pages components/Login';
 
 function App() {
+  const [count, setCount] = useState(0)
   return (
     <Router>
       <Routes>
         <Route path="/login" element={<Login />} />
       </Routes>
     </Router>
-  );
-}
-
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
+  ),
+  (
     <>
       <div>
         <a href="https://vite.dev" target="_blank">
@@ -42,6 +38,9 @@ function App() {
       </p>
     </>
   )
+
 }
+
+
 
 export default App

@@ -63,3 +63,20 @@ Added basic styling using CSS (App.css) to ensure a clean and user-friendly desi
 Git Integration:
 Added the new files to version control and committed progress to the GitHub repository.
 This milestone lays the groundwork for creating the front-end interface and interaction logic for the application.
+
+
+# Milestone 3: Project Setup for Backend
+
+In this milestone, the foundational backend structure for the e-commerce application was successfully established. Key achievements include:
+
+Backend Folder Structure:
+Organized the project into clearly defined folders ( config, controller, db, middleware, model and utility) to ensure scalability and maintainability.
+Database Integration:
+Set up a connection to MongoDB using Mongoose, enabling seamless interaction with the database.
+Environment Congiguration
+Implemented a .env file to securely manage sensitive data such as database credentials, ensuring better secuirty practives.
+Middleware Implementation
+Created a essential middleware for authentication, error handiling, and asynchronous error management to streamline request processing and ensure robust error handiling.
+
+Utility Functions 
+-Added rusable utility components like a custom error handler to improve consistency and simplify debugging.
